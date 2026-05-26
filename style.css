@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* FONDO NEGRO */
+
+body{
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* TELEFONO */
+
+.phone{
+    width:420px;
+    height:780px;
+    background:white;
+    border:8px solid #444;
+    border-radius:35px;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 5px 20px rgba(0,0,0,0.5);
+}
+
+/* PANTALLAS */
+
+.screen{
+    width:100%;
+    height:100%;
+    padding:30px 20px;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:0.5s;
+    background:white;
+}
+
+.hidden{
+    transform:translateX(100%);
+}
+
+/* LOGO */
+
+.logo{
+    text-align:center;
+    margin-top:120px;
+}
+
+.logo img{
+    width:140px;
+}
+
+.logo h1{
+    color:#7b5b3e;
+    margin-top:20px;
+    font-size:42px;
+}
+
+.logo p{
+    margin-top:15px;
+    color:#555;
+    font-size:24px;
+}
+
+/* BOTON */
+
+.btn{
+    margin-top:40px;
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    background:#b68d5d;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+
+/* FORMULARIO */
+
+.form{
+    margin-top:100px;
+}
+
+.form h2{
+    text-align:center;
+    color:#7b5b3e;
+    margin-bottom:30px;
+    font-size:38px;
+}
+
+.form ul{
+    margin-bottom:30px;
+    margin-left:20px;
+    color:#444;
+    line-height:40px;
+    font-size:24px;
+}
+
+/* INPUT */
+
+input{
+    width:100%;
+    padding:16px;
+    margin-bottom:20px;
+    border:2px solid #ccc;
+    border-radius:12px;
+    font-size:20px;
+}
+
+/* MENSAJE */
+
+.welcome{
+    text-align:center;
+    margin-top:25px;
+    color:#7b5b3e;
+    font-size:24px;
+    font-weight:bold;
+}
