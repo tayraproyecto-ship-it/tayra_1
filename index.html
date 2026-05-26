@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SumaqBio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="phone">
+
+        <!-- PANTALLA 1 -->
+        <div class="screen" id="inicio">
+
+            <div class="logo">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/2909/2909763.png" alt="logo">
+
+                <h1>SumaqBio</h1>
+
+                <p>
+                    Salud natural <br>
+                    al alcance de todos
+                </p>
+
+                <button class="btn" onclick="mostrarFormulario()">
+                    Iniciar
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PANTALLA 2 -->
+        <div class="screen hidden" id="formulario">
+
+            <div class="form">
+
+                <h2>BIENVENIDO</h2>
+
+                <ul>
+                    <li>✔ Explora hierbas</li>
+                    <li>✔ Aprende usos</li>
+                    <li>✔ Cuida tu salud</li>
+                </ul>
+
+                <input type="text" id="nombre" placeholder="Tu nombre">
+
+                <button class="btn" onclick="guardarNombre()">
+                    Entrar
+                </button>
+
+                <div class="welcome" id="mensaje"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
