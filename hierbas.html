@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierbas Medicinales</title>
+
+    <link rel="stylesheet" href="hierbas.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1 id="saludo"></h1>
+
+        <h2>🌿 Hierbas Medicinales</h2>
+
+        <!-- BUSCADOR -->
+
+        <input
+            type="text"
+            id="buscador"
+            placeholder="Buscar hierba..."
+            onkeyup="buscarHierba()"
+        >
+
+        <!-- TARJETAS -->
+
+        <div class="cards" id="cards">
+
+            <!-- MUÑA -->
+
+            <div class="card" onclick="abrirHierba('muna')">
+
+                <img src="muña.png">
+
+                <h3>Muña</h3>
+
+            </div>
+
+            <div class="card" onclick="abrirHierba('diente de leon')">
+
+                <img src="diente_de_leon-removebg-preview.png">
+
+                <h3>Diente de Leon</h3>
+
+            </div>
+
+            <!-- EUCALIPTO -->
+
+            <div class="card" onclick="abrirHierba('eucalipto')">
+
+                <img src="eucalipto.png">
+
+                <h3>Eucalipto</h3>
+
+            </div>
+
+            <!-- MANZANILLA -->
+
+            <div class="card" onclick="abrirHierba('manzanilla')">
+
+                <img src="manzanilla.png">
+
+                <h3>Manzanilla</h3>
+
+            </div>
+
+            <!-- ROMERO -->
+
+            <div class="card" onclick="abrirHierba('romero')">
+
+                <img src="romero.png">
+
+                <h3>Romero</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="hierbas.js"></script>
+
+</body>
+</html>
